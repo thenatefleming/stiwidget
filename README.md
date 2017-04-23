@@ -1,1 +1,1 @@
-Download this project and view the index.html file ina browser. 
+Download this project and view the index.html file in a browser. 
