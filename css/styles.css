@@ -1,0 +1,98 @@
+body {
+  background: #accdc1;
+  color: #485b5b;
+  margin: 0;
+  font-size: 10px; }
+
+a.pure-button-primary {
+  color: #82bc41;
+  border-radius: 0;
+  margin: 1px;
+  border: 0px;
+  background: #ffffff; }
+  a.pure-button-primary.active, a.pure-button-primary:hover {
+    background: #82bc41;
+    color: #ffffff; }
+
+.splash {
+  width: 543px;
+  background-size: contain;
+  margin: 2rem auto;
+  text-transform: uppercase; }
+
+.splash-container {
+  background: none; }
+  .splash-container .photo,
+  .splash-container .list,
+  .splash-container .summary,
+  .splash-container p {
+    text-align: left;
+    display: inline-block;
+    vertical-align: bottom; }
+  .splash-container .list {
+    width: 165px;
+    height: 103px;
+    list-style-type: none;
+    padding: 2%;
+    background: #93b1b8;
+    background: #82bc41;
+    margin: 0;
+    color: #ffffff; }
+    .splash-container .list li {
+      margin: .5rem 0; }
+  .splash-container .overview-content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 543px; }
+  .splash-container .details-content {
+    display: none;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 543px;
+    background: rgba(255, 255, 255, 0.7); }
+    .splash-container .details-content p {
+      padding: 10px; }
+  .splash-container .summary,
+  .splash-container .overview {
+    width: 353px;
+    height: 125px;
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.7); }
+    .splash-container .summary p, .splash-container .summary h3,
+    .splash-container .overview p,
+    .splash-container .overview h3 {
+      padding: 0 10px; }
+  .splash-container .overview {
+    width: 543px; }
+  .splash-container .card-title {
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-weight: 100;
+    text-align: left; }
+  .splash-container .card-title.details {
+    display: none; }
+  .splash-container .card-content {
+    position: relative;
+    border: 1px solid #f4f1e9;
+    margin-bottom: 2%;
+    width: 543px;
+    height: 362px;
+    background: url(../assets/images/janedoe.jpg) no-repeat top center;
+    background-size: contain;
+    overflow: hidden; }
+    .splash-container .card-content h2 {
+      padding: 5px 20px;
+      background: rgba(72, 91, 91, 0.7);
+      display: inline-block;
+      vertical-align: bottom;
+      margin-left: 10px;
+      color: #fff; }
+
+.pure-button {
+  float: right; }
+
+/*# sourceMappingURL=styles.css.map */
